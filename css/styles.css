@@ -205,11 +205,16 @@
   background-color: var(--bgd-second);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 1.62;
   letter-spacing: 0.03em;
 
   text-align: center;
   border: none;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--text-white);
+  background-color: var(--bgd-accent);
 }
 
 /*  Параметры заголовков работ в портфолио */
