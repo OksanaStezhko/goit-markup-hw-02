@@ -109,7 +109,7 @@
 }
 
 /* Параметры заголовка h1 на странице Studio */
-.studio-title {
+.header-title {
   color: var(--text-white);
 
   font-weight: 900;
@@ -122,7 +122,7 @@
 }
 
 /* Параметры кнопки */
-.button-order {
+.header-button {
   color: var(--text-white);
   background-color: var(--bgd-accent);
 }
@@ -140,7 +140,7 @@
 }
 
 /* Параметры заголовков h3 */
-.item-title {
+.features-item {
   color: var(--text-header);
 
   font-weight: bold;
@@ -176,7 +176,6 @@
 }
 
 /* Параметры для строк адреса */
-
 .adress-mail {
   color: var(--text-white);
 
