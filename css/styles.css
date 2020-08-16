@@ -179,6 +179,7 @@
 .adress-mail {
   color: var(--text-white);
 
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -196,4 +197,36 @@
   letter-spacing: 0.03em;
 
   text-decoration: none;
+}
+
+/* Параметры кнопок фильтра для портфолио, явно не до конца разобралась с размором текста в кнопке*/
+.filter-button {
+  color: var(--text-header);
+  background-color: var(--bgd-second);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+
+  text-align: center;
+  border: none;
+}
+
+/*  Параметры заголовков работ в портфолио */
+.portfolio-title {
+  color: var(--text-header);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+/*  Параметры пунктов фильтров для портфолио */
+.filter-item {
+  color: var(--text-main);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }

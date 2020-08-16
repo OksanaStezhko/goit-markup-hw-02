@@ -37,19 +37,25 @@
       </nav>
     </header>
     <main>
-      <section class="section">
+      <section class="section portfolio">
         <!--  Позже скрыть заголовок этой секции-->
         <h1>Портфолио</h1>
         <!--блок filters, пока не знаю как это реализовать-->
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="portfolio-filter list">
+          <li><button type="button" class="filter-button">Все</button></li>
+          <li>
+            <button type="button" class="filter-button">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button" class="filter-button">Приложения</button>
+          </li>
+          <li><button type="button" class="filter-button">Дизайн</button></li>
+          <li>
+            <button type="button" class="filter-button">Маркетинг</button>
+          </li>
         </ul>
         <!--Проекты-->
-        <ul>
+        <ul class="portfolio-item list">
           <li>
             <a href="">
               <img
@@ -59,8 +65,8 @@
                 height="294"
               />
             </a>
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <h2 class="portfolio-title">Технокряк</h2>
+            <p class="filter-item">Веб-сайт</p>
           </li>
           <li>
             <a href="">
@@ -71,8 +77,10 @@
                 height="294"
               />
             </a>
-            <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-            <p>Дизайн</p>
+            <h2 class="portfolio-title">
+              Постер <span lang="en">New Orlean vs Golden Star</span>
+            </h2>
+            <p class="filter-item">Дизайн</p>
           </li>
           <li>
             <a href="">
@@ -83,8 +91,10 @@
                 height="294"
               />
             </a>
-            <h2>Ресторан <span lang="en">Seafood</span></h2>
-            <p>Приложение</p>
+            <h2 class="portfolio-title">
+              Ресторан <span lang="en">Seafood</span>
+            </h2>
+            <p class="filter-item">Приложение</p>
           </li>
           <li>
             <a href="">
@@ -95,8 +105,8 @@
                 height="294"
               />
             </a>
-            <h2>Проект <span lang="en">Prime</span></h2>
-            <p>Маркетинг</p>
+            <h2 class="portfolio-title">Проект <span lang="en">Prime</span></h2>
+            <p class="filter-item">Маркетинг</p>
           </li>
           <li>
             <a href="">
@@ -107,8 +117,8 @@
                 height="294"
               />
             </a>
-            <h2>Проект <span lang="en">Boxes</span></h2>
-            <p>Приложение</p>
+            <h2 class="portfolio-title">Проект <span lang="en">Boxes</span></h2>
+            <p class="filter-item">Приложение</p>
           </li>
           <li>
             <a href="">
@@ -119,8 +129,10 @@
                 height="294"
               />
             </a>
-            <h2 lang="en">Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 class="portfolio-title" lang="en">
+              Inspiration has no Borders
+            </h2>
+            <p class="filter-item">Веб-сайт</p>
           </li>
           <li>
             <a href="">
@@ -131,8 +143,10 @@
                 height="294"
               />
             </a>
-            <h2>Издание <span lang="en">Limited Edition</span></h2>
-            <p>Дизайн</p>
+            <h2 class="portfolio-title">
+              Издание <span lang="en">Limited Edition</span>
+            </h2>
+            <p class="filter-item">Дизайн</p>
           </li>
           <li>
             <a href="">
@@ -143,8 +157,8 @@
                 height="294"
               />
             </a>
-            <h2>Проект <span lang="en">LAB</span></h2>
-            <p>Маркетинг</p>
+            <h2 class="portfolio-title">Проект <span lang="en">LAB</span></h2>
+            <p class="filter-item">Маркетинг</p>
           </li>
           <li>
             <a href="">
@@ -155,18 +169,23 @@
                 height="294"
               />
             </a>
-            <h2 lang="en">Growing Business</h2>
-            <p>Приложение</p>
+            <h2 class="portfolio-title" lang="en">Growing Business</h2>
+            <p class="filter-item">Приложение</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="">WebStudio</a>
-      <address>
-        г. Киев, пр-т Леси Украинки, 26<br />
-        <a href="mailto:info@example.com">info@example.com </a><br />
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+    <footer class="section-footer">
+      <a href="" class="logo">
+        <span class="logo-part-one">Web</span
+        ><span class="logo-part-two">Studio</span></a
+      >
+      <address class="footer-adress">
+        <p class="adress-mail">г. Киев, пр-т Леси Украинки, 26</p>
+        <a href="mailto:info@example.com" class="adress-email"
+          >info@example.com </a
+        ><br />
+        <a href="tel:+380961111111" class="adress-tel">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>
