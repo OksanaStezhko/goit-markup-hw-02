@@ -25,5 +25,8 @@
 .page-studio,
 .page-portfolio {
   color: var(--text-main);
-  background-color: var(--text-white);
+  background-color: var(--text-main);
+}
+.body {
+  background-color: yellow;
 }
