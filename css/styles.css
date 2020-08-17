@@ -73,13 +73,20 @@
   color: var(--text-white);
 }
 
-/* Общие параметры для всех ссылок */
+/* Общие параметры для всех ссылок класса link навигационного блока, этот класс для других ссылок использоваться не будет */
+
 .link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
   text-decoration: none;
+}
+
+/*  hover и focus для ссылок навигации по сайту*/
+.link:hover,
+.link:focus {
+  color: var(--text-accent);
 }
 
 /* Параметры ссылок навигации по сайту */
@@ -90,12 +97,6 @@
 /* Параметры ссылок для обратной связи */
 .page-contacts .link {
   color: var(--text-main);
-}
-
-/*  hover и focus для ссылок навигации по сайту*/
-.link:hover,
-.link:focus {
-  color: var(--text-accent);
 }
 
 /* Убираем символы списка */
