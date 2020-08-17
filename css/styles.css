@@ -45,6 +45,12 @@
   font-style: normal;
 }
 
+/* Параметры страницы Portfolio. Размер шрифта наследуется только ссылками в nav */
+.page-portfolio {
+  font-size: 14px;
+  font-style: normal;
+}
+
 /* Параметры логотипа */
 .logo {
   color: var(--text-header);
@@ -53,6 +59,8 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
+
   text-decoration: none;
 }
 
@@ -65,35 +73,28 @@
   color: var(--text-white);
 }
 
-/* Параметры ссылок навигации по сайту */
-.page-nav .link {
-  color: var(--text-header);
-
+/* Общие параметры для всех ссылок */
+.link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
   text-decoration: none;
+}
+
+/* Параметры ссылок навигации по сайту */
+.page-nav .link {
+  color: var(--text-header);
 }
 
 /* Параметры ссылок для обратной связи */
 .page-contacts .link {
   color: var(--text-main);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  text-decoration: none;
 }
 
-/*  hover и focus для списков навигации по сайту*/
-.page-nav .link:hover,
-.page-contacts .link:hover,
-.page-nav .link:focus,
-.page-contacts .link:focus {
+/*  hover и focus для ссылок навигации по сайту*/
+.link:hover,
+.link:focus {
   color: var(--text-accent);
 }
 
@@ -181,7 +182,6 @@
 
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -192,7 +192,6 @@
 
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
