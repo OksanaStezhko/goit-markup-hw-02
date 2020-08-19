@@ -93,6 +93,7 @@
 }
 
 /*  hover и focus для ссылок навигации по сайту*/
+.link.current,
 .page-nav .link:hover,
 .page-nav .link:focus,
 .page-contacts .link:hover,
